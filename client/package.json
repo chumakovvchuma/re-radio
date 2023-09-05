@@ -11,7 +11,8 @@
     "test": "react-scripts test",
     "generate": "gql-gen",
     "format": "eslint --fix --ext .tsx --ext .ts src/",
-    "lint": "eslint --ext .tsx --ext .ts src/"
+    "lint": "eslint --ext .tsx --ext .ts src/",
+    "ssl": "set HTTPS=true&&set SSL_CRT_FILE=C:/Windows/System32/cert.crt&&set SSL_KEY_FILE=C:/Windows/System32/cert.key&&react-scripts start"
   },
   "dependencies": {
     "@apollo/client": "3.4.16",
@@ -26,7 +27,6 @@
     "moment": "2.29.1",
     "moment-duration-format": "2.3.2",
     "notistack": "1.0.10",
-    "re-radio-common": "^0.1.0-SNAPSHOT",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-helmet": "6.0.0",

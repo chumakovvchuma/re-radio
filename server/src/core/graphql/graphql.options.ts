@@ -15,6 +15,7 @@ export class GraphqlOptions implements GqlOptionsFactory {
 
     return {
       path: 'graphql',
+      playground: true,
       autoSchemaFile: 'schema.graphql',
       installSubscriptionHandlers: true,
       subscriptions: {
